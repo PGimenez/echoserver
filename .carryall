@@ -1,0 +1,11 @@
+      user: "pgimenez"
+      app:
+        name: "echo"
+        image: "pjgim/pgimenez-echo:latest"
+        namespace: "user-pgimenez"
+        rootdomain: "apps.carryall.io"
+        mount_volume: "false"
+        cpu_min: "200m"
+        memory_min: "100Mi"
+        cpu_max: "200m"
+        memory_max: "100Mi"
